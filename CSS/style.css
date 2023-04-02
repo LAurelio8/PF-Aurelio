@@ -3,6 +3,7 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   scroll-behavior: smooth;
+  max-width: 99%;
 }
 
 .size-icons {
@@ -156,6 +157,10 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.texto-derecha {
+  margin-left: 30px;
 }
 
 .rutina-title {
