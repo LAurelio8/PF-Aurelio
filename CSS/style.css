@@ -223,10 +223,13 @@ nav ul li a {
   display: flex;
 }
 
+.shop-title {
+  margin-left: 10px;
+}
+
 .shop-list {
   text-decoration: none;
   color: black;
-  margin-left: 40px;
   margin-right: 150px;
 }
 
@@ -237,7 +240,7 @@ main section ul li {
 
 .shop-position {
   margin-left: 100px;
-  margin-top: 0px;
+  margin-top: 30px;
   margin-bottom: 50px;
 }
 
