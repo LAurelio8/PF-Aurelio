@@ -1,3 +1,11 @@
+.primera-fila {
+  display: flex;
+}
+
+.segunda-fila {
+  display: flex;
+}
+
 .shop-section {
   display: flex;
   ul li {
@@ -42,6 +50,10 @@
     color: $secondaryColor;
     box-shadow: 0px 2px 10px $shadowColor;
   }
+}
+
+.pf-button {
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 900px) {
