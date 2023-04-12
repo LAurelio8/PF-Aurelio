@@ -243,6 +243,35 @@ a {
   box-shadow: 0px 2px 10px rgba 0, 0, 0, 0.3;
 }
 
+@media only screen and (max-width: 900px) {
+  .shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .shop-section img {
+    margin-left: 0px;
+  }
+  .shop-section h3 {
+    margin-left: 0px;
+  }
+  .shop-section h4 {
+    margin-left: 0px;
+  }
+  .pf-button {
+    margin-top: 39px;
+  }
+  .sf-button {
+    margin-top: 19px;
+  }
+  .shop-section > div {
+    width: 100%;
+  }
+  .shop-position {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
 .pd-h1 {
   margin-left: 10px;
   margin-bottom: 10px;
