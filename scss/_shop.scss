@@ -158,3 +158,12 @@
     margin-right: 110px;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .div-img-product {
+    max-width: 50%;
+  }
+  .pd-title-position .pd-text-position .pd-price-position .pd-button {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,64 @@
+.pd-h1 {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.div-img-product {
+  display: flex;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+.pd-title-position {
+  margin-top: 120px;
+  margin-left: 100px;
+  margin-bottom: 0px;
+}
+
+.pd-text-position {
+  color: rgb(142, 142, 142);
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+.pd-price-position {
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+.pd-button {
+  background-color: black;
+  color: white;
+  width: 130px;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-left: 100px;
+}
+
+.pd-button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.section-pd {
+  display: flex;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.section-pd h1 {
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.section-pd h3 {
+  margin-left: 10px;
+  margin-right: 110px;
+}
