@@ -57,6 +57,13 @@
 }
 
 @media only screen and (max-width: 900px) {
+  .primera-fila {
+    display: flex;
+  }
+
+  .segunda-fila {
+    display: flex;
+  }
   .shop-section {
     display: flex;
     flex-wrap: wrap;

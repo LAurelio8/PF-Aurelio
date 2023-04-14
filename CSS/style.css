@@ -92,6 +92,7 @@ nav ul li a {
   display: flex;
   color: grey;
   font-size: large;
+  margin-left: 20px;
 }
 
 .button {
@@ -103,6 +104,7 @@ nav ul li a {
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  margin-left: 20px;
 }
 
 .button:hover {
@@ -301,6 +303,15 @@ main section ul li {
 
 /* Estilos para dispositivos móviles */
 @media only screen and (max-width: 900px) {
+  .primera-fila {
+    display: flex;
+    margin-left: 0px;
+  }
+
+  .segunda-fila {
+    display: flex;
+    margin-left: 0px;
+  }
   .shop-section {
     display: flex;
     flex-wrap: wrap;
@@ -334,6 +345,12 @@ main section ul li {
   .shop-position {
     width: 100%;
     margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .button-4-mobile {
+    margin-top: 18px;
   }
 }
 
