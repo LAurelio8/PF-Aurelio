@@ -161,9 +161,38 @@
 
 @media only screen and (max-width: 500px) {
   .div-img-product {
-    max-width: 50%;
+    flex-direction: column;
+    width: 100%;
+    max-width: 99%;
+    margin-left: 0px;
   }
-  .pd-title-position .pd-text-position .pd-price-position .pd-button {
-    max-width: 100%;
+  .img-costado {
+    flex-direction: row;
+    display: inline-block;
+    margin-left: 12px;
+    width: 30%;
+    margin-bottom: 0px;
+  }
+  .div-img-product img {
+    width: 100%;
+  }
+  .section-pd {
+    margin-top: 20px;
+  }
+  .pd-title-position {
+    margin-top: 0;
+    margin-left: 15px;
+  }
+  .pd-text-position {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 0;
+  }
+  .pd-price-position {
+    margin-left: 15px;
+  }
+  .pd-button {
+    margin-left: 15px;
+    width: 100%;
   }
 }
