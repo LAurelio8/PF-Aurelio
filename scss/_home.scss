@@ -42,6 +42,13 @@ main h1 {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .main-img {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+}
+
 /* end home */
 
 /*empieza bestseller*/
@@ -72,6 +79,7 @@ main h1 {
 .section-bestseller button {
   background-color: $secondaryColor;
   color: $mainColor;
+  margin-bottom: 10px;
   width: 130px;
   height: 30px;
   border: none;

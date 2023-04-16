@@ -1,3 +1,15 @@
+.shop-section {
+  display: flex;
+  ul li {
+    margin-bottom: 10px;
+    display: block;
+    margin-right: 150px;
+  }
+  li:first-child {
+    margin-bottom: -15px;
+  }
+}
+
 .primera-fila {
   display: flex;
 }
@@ -6,34 +18,10 @@
   display: flex;
 }
 
-.shop-section {
-  display: flex;
-  ul li {
-    margin-bottom: 10px;
-    margin-top: 5px;
-  }
-}
-
-.shop-title {
-  margin-left: 10px;
-}
-
-.shop-list {
-  text-decoration: none;
-  color: $secondaryColor;
-  margin-right: 150px;
-}
-
 .shop-position {
   margin-left: 100px;
   margin-top: 30px;
   margin-bottom: 50px;
-}
-
-.shop-button {
-  background-color: $secondaryColor;
-  color: $mainColor;
-  margin-top: 18px;
 }
 
 .shop-position button {
@@ -70,18 +58,6 @@
     justify-content: center;
   }
 
-  .shop-section img {
-    margin-left: 0px;
-  }
-
-  .shop-section h3 {
-    margin-left: 0px;
-  }
-
-  .shop-section h4 {
-    margin-left: 0px;
-  }
-
   .pf-button {
     margin-top: 39px;
   }
@@ -97,9 +73,6 @@
   .shop-position {
     width: 100%;
     margin-bottom: 20px;
-  }
-  .button-4-mobile {
-    margin-top: 18px;
   }
 }
 
@@ -183,12 +156,14 @@
   .img-costado {
     flex-direction: row;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 8px;
+    margin-right: 3px;
     width: 28%;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
   }
   .div-img-product img {
-    width: 100%;
+    width: 98%;
+    margin-left: 15px;
   }
   .section-pd {
     margin-top: 20px;
