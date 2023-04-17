@@ -37,6 +37,13 @@
   }
 }
 
+.btn-shop3 {
+  @extend .btn-gral;
+  @media only screen and (max-width: 900px) {
+    margin-top: 19px;
+  }
+}
+
 .btn-prod-detail {
   @extend .btn-gral;
   margin-left: 100px;

@@ -235,6 +235,7 @@ main h1 {
   .shop-position {
     width: 100%;
     margin-bottom: 20px;
+    margin-left: 15px;
   }
 }
 .pd-h1 {
@@ -368,7 +369,7 @@ footer img {
   width: 30px;
 }
 
-.btn-gral, .btn-news, .btn-prod-detail, .btn-shop2, .btn-shop, .btn-bestseller, .btn-bestseller2 {
+.btn-gral, .btn-news, .btn-prod-detail, .btn-shop3, .btn-shop2, .btn-shop, .btn-bestseller, .btn-bestseller2 {
   background-color: black;
   color: white;
   margin-bottom: 10px;
@@ -379,7 +380,7 @@ footer img {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-.btn-gral:hover, .btn-news:hover, .btn-prod-detail:hover, .btn-shop2:hover, .btn-shop:hover, .btn-bestseller:hover, .btn-bestseller2:hover {
+.btn-gral:hover, .btn-news:hover, .btn-prod-detail:hover, .btn-shop3:hover, .btn-shop2:hover, .btn-shop:hover, .btn-bestseller:hover, .btn-bestseller2:hover {
   background-color: white;
   color: black;
   box-shadow: 0px 2px 10px rgba 0, 0, 0, 0.3;
@@ -399,6 +400,12 @@ footer img {
 @media only screen and (max-width: 900px) {
   .btn-shop2 {
     margin-top: 39px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .btn-shop3 {
+    margin-top: 19px;
   }
 }
 
