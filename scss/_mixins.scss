@@ -24,3 +24,31 @@
   @extend .btn-bestseller;
   margin-top: 18px;
 }
+
+.btn-shop {
+  @extend .btn-gral;
+}
+
+.btn-shop2 {
+  @extend .btn-gral;
+  margin-top: 19px;
+  @media only screen and (max-width: 900px) {
+    margin-top: 39px;
+  }
+}
+
+.btn-prod-detail {
+  @extend .btn-gral;
+  margin-left: 100px;
+  @media only screen and (max-width: 500px) {
+    margin-left: 15px;
+    width: 100%;
+  }
+}
+
+.btn-news {
+  @extend .btn-gral;
+  margin-left: 5px;
+  width: 75px;
+  height: 30px;
+}
