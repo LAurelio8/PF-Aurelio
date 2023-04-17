@@ -19,10 +19,7 @@ main h1 {
 }
 
 .text-grey {
-  display: flex;
-  color: $tertiaryColor;
-  font-size: $textH3;
-  margin-left: 20px;
+  @include text-gray(flex, $tertiaryColor, $textH3, 20px);
 }
 
 .button {
@@ -71,3 +68,5 @@ main h1 {
   margin-left: 100px;
   margin-bottom: 30px;
 }
+
+//  termina bestseller

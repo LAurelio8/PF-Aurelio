@@ -59,3 +59,10 @@
   width: 75px;
   height: 30px;
 }
+
+@mixin text-gray($display, $color, $size, $margin) {
+  display: $display;
+  color: $tertiaryColor;
+  font-size: $textH3;
+  margin-left: $margin;
+}
