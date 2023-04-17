@@ -1,0 +1,26 @@
+.btn-gral {
+  background-color: $secondaryColor;
+  color: $mainColor;
+  margin-bottom: 10px;
+  width: 130px;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: $mainColor;
+    color: $secondaryColor;
+    box-shadow: 0px 2px 10px $shadowColor;
+  }
+}
+
+.btn-bestseller {
+  @extend .btn-gral;
+  margin-left: 100px;
+}
+
+.btn-bestseller2 {
+  @extend .btn-bestseller;
+  margin-top: 18px;
+}

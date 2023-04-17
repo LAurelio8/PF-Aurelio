@@ -71,25 +71,3 @@ main h1 {
   margin-left: 100px;
   margin-bottom: 30px;
 }
-
-.button-position {
-  margin-top: 22px;
-}
-
-.section-bestseller button {
-  background-color: $secondaryColor;
-  color: $mainColor;
-  margin-bottom: 10px;
-  width: 130px;
-  height: 30px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  margin-left: 100px;
-  &:hover {
-    background-color: $mainColor;
-    color: $secondaryColor;
-    box-shadow: 0px 2px 10px $shadowColor;
-  }
-}
