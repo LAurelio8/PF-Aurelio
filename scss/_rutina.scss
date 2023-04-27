@@ -3,6 +3,32 @@
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(12, auto);
   flex-direction: column;
+  grid-template-areas:
+    "p-fila p-fila"
+    "s-fila s-fila"
+    "t-fila t-fila"
+    "c-fila c-fila"
+    "q-fila q-fila"
+    "u-fila u-fila";
+}
+
+#primera-fila {
+  grid-area: p-fila;
+}
+#segunda-fila {
+  grid-area: s-fila;
+}
+#tercera-fila {
+  grid-area: t-fila;
+}
+#cuarta-fila {
+  grid-area: c-fila;
+}
+#quinta-fila {
+  grid-area: q-fila;
+}
+#ultima-fila {
+  grid: u-fila;
 }
 
 .row-rutina {
