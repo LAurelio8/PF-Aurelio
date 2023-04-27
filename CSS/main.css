@@ -1,4 +1,11 @@
-.btn-gral, .btn-news, .btn-prod-detail, .btn-shop3, .btn-shop2, .btn-shop, .btn-bestseller, .btn-bestseller2 {
+.btn-gral,
+.btn-news,
+.btn-prod-detail,
+.btn-shop3,
+.btn-shop2,
+.btn-shop,
+.btn-bestseller,
+.btn-bestseller2 {
   background-color: black;
   color: white;
   margin-bottom: 10px;
@@ -9,13 +16,21 @@
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-.btn-gral:hover, .btn-news:hover, .btn-prod-detail:hover, .btn-shop3:hover, .btn-shop2:hover, .btn-shop:hover, .btn-bestseller:hover, .btn-bestseller2:hover {
+.btn-gral:hover,
+.btn-news:hover,
+.btn-prod-detail:hover,
+.btn-shop3:hover,
+.btn-shop2:hover,
+.btn-shop:hover,
+.btn-bestseller:hover,
+.btn-bestseller2:hover {
   background-color: white;
   color: black;
   box-shadow: 0px 2px 10px rgba 0, 0, 0, 0.3;
 }
 
-.btn-bestseller, .btn-bestseller2 {
+.btn-bestseller,
+.btn-bestseller2 {
   margin-left: 100px;
 }
 
